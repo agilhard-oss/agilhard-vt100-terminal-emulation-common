@@ -378,7 +378,7 @@ public class JNAPtyLinux implements Tty {
     public interface PtyLibrary extends Library {
 
         /** The instance. */
-        static PtyLibrary INSTANCE = (PtyLibrary) Native.loadLibrary("seastep-pty-1.0.0-SNAPSHOT", PtyLibrary.class);
+        static PtyLibrary INSTANCE = (PtyLibrary) Native.loadLibrary("agilhard-lib-pty-1.0-SNAPSHOT.so", PtyLibrary.class);
 
         /**
          * Startpty.
